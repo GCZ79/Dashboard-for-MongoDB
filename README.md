@@ -2,17 +2,15 @@
 CRUD Module (Python) and Interactive Dashboard (Dash)
 -----------------------------
 -----------------------------
-
-
 How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
 -----------------------------
-
+In my work, I try to write code that is secure, easy to understand thanks to the use of throughout commenting, and that adapts easily as the project grows and evolves. A big part of that is separating responsibilities, keeping the structure consistent, and making sure the logic behind each piece is clear, both for an external reader and for myself if I need to revisit the code later. This is how I approached the CRUD Python module in Project One. By keeping all the database operations in a dedicated module, I avoided mixing query logic into the dashboard itself. This made a noticeable difference in Project Two, because each dashboard widget could just call the existing CRUD functions instead of managing its own database queries. The result was less complexity, less unnecessary rows of code, and more reuse. Looking ahead, the same module could support other front-end interfaces, analytics scripts, or even automated data-cleaning tasks that need access to a database.
 -----------------------------
 How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
 -----------------------------
-
+When I approach a problem as a computer scientist, I start by breaking it into clear functional requirements and then design a solution that meets each one, keeping security and scalability always front and center. In the Grazioso Salvare project, that meant taking the client’s needs, like filtering animals by specific traits, updating records, and identifying possible rescue candidates, and translating those needs into concrete database queries and dashboard features. This project was different from earlier coursework because I had to focus on many different elements and then bring everything together: the database structure, the Python logic, and the dashboard interface. Going forward, I would keep using the same techniques, the modular design, early prototyping, and strong schema validation, to build databases that fit client expectations but can also adapt to evolving requirements.
 -----------------------------
 What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
 -----------------------------
-
+Computer scientists build systems that handle information efficiently and reliably to help organizations make informed decisions. A project like this directly helps a company such as Grazioso Salvare by giving them a way to quickly analyze animal intake records, and identify dogs that might be strong candidates for search-and-rescue training. Turning raw information into something useful allows organizations to work more effectively, respond to problems with better insight, and, in this case, support rescue efforts and help save lives.
 -----------------------------
